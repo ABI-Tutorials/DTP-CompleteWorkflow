@@ -5,7 +5,7 @@ Complete Workflow
 This module covers the complete workflow from the acqusition of medical images through to a clinical outcome or clinical tool.  
 
 Overview
-======== 
+========
 
 At this point we have covered the individual stages that take us from some clinical observation or clinical experiment through to creating clinical outcomes.  We shall now turn to looking at a complete workflow, that is starting from some clinical data and finishing with a prediction for clinical use.
 
@@ -19,7 +19,7 @@ The musculo-skeletal (MSK) system ... has a great deal importance in the clinica
 MSK Introductory Workflow
 =========================
 
-Task one is to have a look at the horse fetlock joint analysis workflow.  In this workflow we will take a set of measurements that will be used to characterise the joint.  With this information we will predict the liklehood of injury and try to determine a training regime that minimises the risk of injury.
+Task one is to have a look at a workflow for the analysis of the horse fetlock joint.  In this workflow we will take a set of measurements that will be used to characterise the joint.  With this information we will predict the liklehood of injury and try to determine a training regime that minimises the risk of injury.
 
 .. figure:: _images/task1workflow.png
    :name: dtp_cp_cwf_tsk1_wkfl
@@ -59,9 +59,17 @@ At this point the workflow stops but it could carry on to adding the new measure
 Patient Femur Analysis Workflow
 ===============================
 
-Task two is to execute and follow through a (almost) complete computational physiological cycle.  For this task we will take a set of MR images of the knee joint and some fudicial markers taken from the patient so that we can take a set of measurements that are consistent across all patients and provide data for a clinician to prepare the best treatment for the patient.
+Task two is to execute and follow through a (almost) complete computational physiology cycle.  For this task we will take a set of MR images of the knee joint and some fudicial markers taken from the patient so that we can make a set of measurements that are consistent across all patients and provide data for a clinician to prepare the best treatment for the patient.
 
-In Figure 1 we have the workflow for analysing a patient's femur.  It is a very complex workflow and by far the most advanced that we have seen.  We can of course use this workflow to analyse any bone that we have the required population based principal component model data.  At this time we have this data for all the major bones of the lower limb.
+In :numref:`dtp_cp_cwf_tsk2_wkfl` we have the workflow for analysing a patient's femur.  It is a very complex workflow and by far the most advanced that we have seen.  We can of course use this workflow to analyse any bone that we have the required population based principal component model data.  At this time we have this data for all the major bones of the lower limb, but here we focus on the femur.
 
-This workflow as previously stated is rather complex, it has a number of interactive steps and non-interactive steps.  The 
+.. figure:: _images/task2workflow.png
+   :name: dtp_cp_cwf_tsk2_wkfl
+   :align: center
+   :alt: Task 1 workflow.
+   
+   Task 2 patient femur analysis workflow.
+
+
+This workflow as previously stated is rather complex, it has a number of interactive steps and non-interactive steps.
 
