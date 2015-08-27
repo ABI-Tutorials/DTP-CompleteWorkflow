@@ -153,6 +153,7 @@ To register the pelvis model to the fiducial markers we must assign the model la
 .. figure:: _images/task2regpelvisassoc.png
    :name: dtp_cp_cwf_tsk2_reg_pela
    :align: center
+   :width: 50%
    :alt: Pelvis associations.
    
    Association of pelvis model landmarks to fiducial markers.
@@ -175,6 +176,7 @@ Again we need to associate at least three points that are not co-linear, which i
 .. figure:: _images/task2regfemurassoc.png
    :name: dtp_cp_cwf_tsk2_reg_fema
    :align: center
+   :width: 50%
    :alt: Femur associations.
    
    Association of femur model landmarks to fiducial markers.
@@ -204,6 +206,7 @@ We can see here that some of the segmented points do not correspond very well to
 .. figure:: _images/task2regpcsettings.png
    :name: dtp_cp_cwf_tsk2_reg_pc_s
    :align: center
+   :width: 50%
    :alt: Settings for ICP source-target.
    
    Settings for the ICP source-target registration method.
@@ -212,7 +215,7 @@ Have a look at the fit, if we do not have enough segmented points it will be dif
 
 When you have a satisfactory registration push the accept button.
 
-We have now arrived at the last interactive step in this workflown (:numref:`dtp_cp_cwf_tsk2_fit_model`).  We need to fit the PCA femur model to the segmented point cloud.  Again we see a very similar interface as we have seen previously in the registration steps the difference is that we now have a fitting parameters section.  For the fitting we want to fit the datapoints to the element points (DPEP), set the distance model combobox to DPEP to make sure that the we are doing the fit in the correct direction.
+We have now arrived at the last interactive step in this workflow (:numref:`dtp_cp_cwf_tsk2_fit_model`).  We need to fit the PCA femur model to the segmented point cloud.  Again we see a very similar interface as we have seen previously in the registration steps the difference is that we now have a fitting parameters section.  For the fitting we want to fit the datapoints to the element points (DPEP), set the distance model combobox to DPEP to make sure that the we are doing the fit in the correct direction.
 
 .. figure:: _images/task2fitmodel.png
    :name: dtp_cp_cwf_tsk2_fit_model
